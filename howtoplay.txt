@@ -1,0 +1,21 @@
+
+To run the game, type: python car_game.sh
+
+Hit enter to begin
+
+To start the car type: start
+
+To break the car type: break
+
+To stop the car type: stop
+
+To turn lift type: left
+
+To turn rigth type: right
+
+To move backward type: back
+
+To move forward type: forward
+
+To get help type: help
+
