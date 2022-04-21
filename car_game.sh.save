@@ -1,0 +1,98 @@
+#!/bin/python3
+
+print ('\n\n\n\n')
+print ('         oooooooooo   oo   oo   oooooooooo                ')
+print ('         oooooooooo    oo oo    oooooooooo            ')
+print ('             ||          oo         ||                  ')
+print ('             ||          ||         ||                 ')
+print ('             ||          ||         ||           ')
+print ('                                 SOFTWARES       ')
+
+
+
+print ('\n\n\n               ||  THE CAR RIDING GAME ||     \n\n\n\n\n')
+
+
+name=(pwd)
+print('Hello there, welcome to the CAR GAME :D \n')
+command = input('Kindly type help, to start the game: ')
+
+car_started = False
+car_stopped = False
+car_break = False
+turn_right = False
+turn_left = False
+forward = False
+back = False
+
+
+while True:
+    command = input('> ').lower()
+
+    if command == 'start':
+        if car_started:
+            print('Car already started ')
+        else:
+            car_started = True
+            print('Car started.')
+            
+
+    elif command == 'break':
+        if car_break:
+            print('You Breaked alreadly ')
+        else:
+            car_break = True
+            print('Car breaked')
+
+
+    elif command == 'stop':
+        if car_stopped:
+            print('Car alreadly stopped')
+        else:
+            car_stopped = True
+            print('Car stopped.')
+
+            
+    elif command == 'right':
+        if turn_right:
+            print('Still Turning Right')
+        else:
+            turn_right = True
+            print('Car Turns Right')
+            
+
+    elif command == 'left':
+        if turn_left:
+            print('Still Turning Left')
+        else:
+            turn_left = True
+            print('Car Turns Left')
+
+            
+    elif command == 'forward':
+        if forward:
+            print('Car Increase Speed')
+        else:
+            forward = True
+            print('Car Moving Forward')
+
+    elif command == 'back':
+        if back:
+            print('Car Decrease Speed')
+        else:
+            back = True
+            print('Car Moving Back')
+
+            
+    elif command == 'help':
+        print('''
+            start - start the car
+            stop - stop the car
+            quit - quit the game 
+        ''')
+    elif command == 'quit':
+        break
+    else:
+        print("Sorry, I don't understand ")
+
+
