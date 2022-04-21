@@ -13,7 +13,7 @@ print ('                                 SOFTWARES       ')
 print ('\n\n\n               ||  THE CAR RIDING GAME ||     \n\n\n\n\n')
 
 
-name=(pwd)
+
 print('Hello there, welcome to the CAR GAME :D \n')
 command = input('Kindly type help, to start the game: ')
 
